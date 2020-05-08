@@ -37,4 +37,6 @@ From: tensorflow/tensorflow:latest-jupyter
   pip3 install statsmodels
   pip3 install matplotlib
   pip3 install pandas
-
+  #------------------------------------------
+  mkdir /data
+  mkdir /scratch
