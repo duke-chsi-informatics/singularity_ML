@@ -9,9 +9,9 @@ pip3 install package_name
 to the %post section in the recipe file.
 
 ## Starting the Singularity Container and Running Jupyter Notebook
-If the container is to be used on local machine, first pull the singularity image from Singularity Hub with
+If the container is to be used on local machine, first pull the singularity image from Sylabs with
 ```
-singularity pull --name your_image_name.sif shub://DylanYang7225/singularity_ML
+singularity pull --name your_image_name.sif library://dylanyang/default/singularity_machine_learning:sha256.297b554c8114b201eb634dcde1cfa2a78bdd8b2332b247004d74f151f865919b
 ```
 Given that the pre-built image has also been pulled or a self-built version of singularity image is preferred (suppose the self-built image is also named your_image_name.sif), then the following commands could be run to start jupyter notebook
 ```
