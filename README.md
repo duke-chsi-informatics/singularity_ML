@@ -4,7 +4,7 @@ singularity container for machine learning in Python
 ## Reusing the Recipe
 Extra packages could be combined into the container with adding 
 ```
-pip3 install package_name
+python3 pip install package_name
 ```
 to the %post section in the recipe file.
 
