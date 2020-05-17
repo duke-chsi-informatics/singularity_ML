@@ -25,7 +25,6 @@ From: tensorflow/tensorflow:latest-jupyter
 
   #------------------------------------------
   python3 -m pip install wheel
-  python3 -m pip install jupyter
   python3 -m pip install bash_kernel
   python3 -m bash_kernel.install
   #------------------------------------------
@@ -37,6 +36,7 @@ From: tensorflow/tensorflow:latest-jupyter
   python3 -m pip install statsmodels
   python3 -m pip install matplotlib
   python3 -m pip install pandas
+  python3 -m pip install seaborn
   #------------------------------------------
   mkdir /data
   mkdir /output
